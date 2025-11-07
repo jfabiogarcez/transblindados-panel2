@@ -102,7 +102,7 @@ export default function TransblindadosDashboard() {
 
           <div className="grid grid-cols-7 gap-1 md:gap-2 text-xs">
             {(() => {
-              const days: JSX.Element[] = [];
+              const days: React.ReactElement[] = [];
               let day = startDate;
               while (day <= endDate) {
                 for (let i = 0; i < 7; i++) {
